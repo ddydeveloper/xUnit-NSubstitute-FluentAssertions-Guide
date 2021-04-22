@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageAdvisor", "MortgageAdvisor\MortgageAdvisor.csproj", "{ADCB37AE-6498-488B-ACD6-B1DB851E015A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MortgageAdvisorTests", "MortgageAdvisorTests\MortgageAdvisorTests.csproj", "{657D3818-A5B2-4736-86A0-0D7899064ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADCB37AE-6498-488B-ACD6-B1DB851E015A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCB37AE-6498-488B-ACD6-B1DB851E015A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCB37AE-6498-488B-ACD6-B1DB851E015A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCB37AE-6498-488B-ACD6-B1DB851E015A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657D3818-A5B2-4736-86A0-0D7899064ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657D3818-A5B2-4736-86A0-0D7899064ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657D3818-A5B2-4736-86A0-0D7899064ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657D3818-A5B2-4736-86A0-0D7899064ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
