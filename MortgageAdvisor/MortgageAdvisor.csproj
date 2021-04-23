@@ -4,6 +4,7 @@
         <TargetFramework>net5.0</TargetFramework>
         <UserSecretsId>dotnet-MortgageAdviser-D1303B1E-CDF3-437B-911F-3C94E9B6886B</UserSecretsId>
         <RootNamespace>MortgageAdviser</RootNamespace>
+        <OutputType>Library</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
