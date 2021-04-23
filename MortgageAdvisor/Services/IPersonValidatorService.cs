@@ -2,12 +2,12 @@ using System;
 
 namespace MortgageAdviser.Services
 {
-    public interface IPersonValidator
+    public interface IPersonValidatorService
     {
         bool IsValidPerson();
     }
 
-    public class PersonValidator : IPersonValidator
+    public class PersonValidatorService : IPersonValidatorService
     {
         public bool IsValidPerson()
         {

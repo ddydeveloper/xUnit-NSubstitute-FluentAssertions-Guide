@@ -17,7 +17,7 @@ namespace MortgageAdviser
                 .ConfigureServices((_, services) =>
                 {
                     services.AddSingleton<ILoanInterestService, LoanInterestService>();
-                    services.AddSingleton<IPersonValidator, PersonValidator>();
+                    services.AddSingleton<IPersonValidatorService, PersonValidatorService>();
                     services.AddSingleton<IMortgageService, MortgageService>();
                     services.AddSingleton<ILoanInterestService, LoanInterestService>();
                     services.AddHostedService<Worker>();
