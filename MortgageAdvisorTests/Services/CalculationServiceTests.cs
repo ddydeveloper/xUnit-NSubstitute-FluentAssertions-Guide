@@ -11,12 +11,12 @@ namespace MortgageAdvisorTests.Services
     {
         private readonly ILoanInterestService _loanInterestService = Substitute.For<ILoanInterestService>();
         private readonly IMortgageService _mortgageService = Substitute.For<IMortgageService>();
-        private readonly IPersonValidator _personValidator = Substitute.For<IPersonValidator>();
+        private readonly IPersonValidatorService _personValidatorService = Substitute.For<IPersonValidatorService>();
         private readonly ICalculationService _calculationService;
 
         public CalculationServiceTests()
         {
-            _calculationService = new CalculationService(_loanInterestService, _personValidator, _mortgageService);
+            _calculationService = new CalculationService(_loanInterestService, _personValidatorService, _mortgageService);
         }
 
         [Fact]
@@ -42,7 +42,7 @@ namespace MortgageAdvisorTests.Services
             var birthDate = new DateTime(birthYear, 1, 1);
             var amount = monthlyPayment * yearsToPay * 12;
 
-            _personValidator
+            _personValidatorService
                 .IsValidPerson()
                 .Returns(true);
 
@@ -58,7 +58,7 @@ namespace MortgageAdvisorTests.Services
             var calculations = _calculationService.GetCalculation(birthDate, annualIncome, yearsToPay);
 
             // Assert
-            _personValidator
+            _personValidatorService
                 .Received()
                 .IsValidPerson();
 
