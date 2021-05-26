@@ -1,4 +1,4 @@
-# Writing Unit Tests with xUnit, NSubstitute and FluentAssetions
+# Writing Unit Tests with xUnit, NSubstitute and FluentAssertions
 
 It's really hard to overestimate the importance of testing. Let's imagine you are an engineer designing a railway bridge. You need to know the traffic flow, the materials it will be constructed, and many other factors. When it is finally done you can just allow a train to pass over the bridge to make sure it won't break...
 
